@@ -10,7 +10,7 @@ var app = express();
 app.use(bodyParser.json());
 
 app.post('/todos', (req, res) => {
-    console.log(req);
+
     var todo = new Todo({ text: req.body.text });
     todo.save().then((doc) => {
         res.send(doc);
@@ -20,10 +20,15 @@ app.post('/todos', (req, res) => {
 });
 
 app.get('/todos', (req, res) => {
-    console.log('Inside get');
-    res.send('hello'); 
+    Todo.find().then((todos) => {
+        res.send({ todos });
+    }, (e) => {
+        res.status(400).send(err);
+    });
 });
 
 app.listen(3000, () => {
     console.log('Server started on 3000'); 
 });
+
+module.exports = { app };
