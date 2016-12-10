@@ -6,6 +6,7 @@ const {ObjectID} = require('mongodb');
 var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todo');
 var {User} = require('./models/user');
+var {authenticate} = require('./middleware/authenticate');
 
 var app = express();
 var port = process.env.PORT;
@@ -80,6 +81,49 @@ app.patch('/todos/:id', (req, res) => {
          res.status(400).send();
      });
 });
+
+app.post('/users', (req, res) => {
+    var body = _.pick(req.body, ['email', 'password']);
+    var user = new User(body);
+    user.save().then(() => {
+        return user.generateAuthToken();
+        //res.send(user);
+    }).then((token) => {
+        res.header('x-auth',token).send(user);
+    }).catch((e) => {
+        res.status(400).send(e);
+    });
+});
+
+app.get('/users/:me',authenticate, (req, res) => { 
+        res.send(req.user);
+});
+
+app.post('/users/login', (req, res) => {
+    var body = _.pick(req.body, ['email', 'password']);
+
+    User.findByCredentials(body.email, body.password).then((user) => {
+        return user.generateAuthToken().then((token) => {
+             res.header('x-auth',token).send(user);
+        });
+    }).catch((e) => {
+        res.status(400).send();
+    });
+    // User.findOne({ email: body.email }).then((user) => {
+    //     if (!user) {
+    //         return res.status(400).send();
+    //     }
+    //     bcrypt.compare(body.password, user.password, (err, res) => {
+    //         if (!res) {
+    //             console.log(false);
+    //             return; 
+    //        }
+    //     });
+    //     res.send(user);
+
+    // });
+});
+
 app.listen(port, () => {
     console.log(`Server started on ${port}`); 
 });
