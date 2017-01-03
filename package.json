@@ -18,9 +18,22 @@
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
     "rewire": "^2.5.2",
-    "supertest": "^2.0.1"
+    "supertest": "^2.0.1",
+    "webpack": "^1.14.0",
+     "css-loader": "^0.25.0",
+    "node-sass": "^3.10.1",
+    "postcss-loader": "^1.1.1",
+    "sass-loader": "^4.0.2",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "angular": "1.5.5",
+    "angular-animate": "1.5.5",
+    "angular-aria": "1.5.5",
+    "angular-material": "^1.1.1"
   },
   "dependencies": {
+    
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
     "crypto-js": "^3.1.8",

@@ -12,6 +12,12 @@ var app = express();
 var port = process.env.PORT;
 app.use(bodyParser.json());
 
+app.use(express.static('public'));
+app.get('/', (req, res) => {
+
+    res.send("GGGG");
+});
+
 app.post('/todos',authenticate, (req, res) => {
 
     var todo = new Todo({ text: req.body.text,_creator:req.user._id});

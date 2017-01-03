@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body ng-app="myApp">
+    <div ng-controller="AppCtrl" ng-cloak>
+        <md-content flex>
+            <div>
+                <md-input-container>
+                    <label>email</label>
+                    <input type="text" ng-model="data.email">
+                </md-input-container>
+                <md-input-container>
+                    <label>password</label>
+                    <input type="password" ng-model="data.password">
+                </md-input-container>
+                <div>
+                    <md-button class="md-primary md-raised" ng-click="loginFunction()">Submit</md-button>
+                </div>
+            </div>
+        </md-content>
+    </div>
+</body>
+<script src="js/bundle.js"></script>
+
+</html>
