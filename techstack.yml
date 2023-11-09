@@ -1,0 +1,558 @@
+repo_name: gautamnaik1994/node-Todo
+report_id: f0e5f5f767f86c76c44d13a06139d5cc
+repo_type: Public
+timestamp: '2023-11-09T18:00:32+00:00'
+requested_by: gautamnaik1994
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-04 12:50:56.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-03 19:56:08.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: server/tests/server.test.js
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-06 18:25:03.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package.json
+  detection_source: webpack.config.js
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-03 19:56:08.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-06 18:25:03.000000000 Z
+- name: angular
+  description: HTML enhanced for web apps
+  package_url: https://www.npmjs.com/angular
+  version: 1.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16174/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in angular
+    cve_id: CVE-2019-10768
+    cve_url: https://github.com/advisories/GHSA-89mq-4x47-5v83
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.9
+  - name: angular vulnerable to regular expression denial of service via the $resource
+      service
+    cve_id: CVE-2023-26117
+    cve_url: https://github.com/advisories/GHSA-2qqx-w9hr-q5gx
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 
+  - name: angular vulnerable to regular expression denial of service via the angular.copy()
+      utility
+    cve_id: CVE-2023-26116
+    cve_url: https://github.com/advisories/GHSA-2vrf-hf26-jrp5
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 
+  - name: Angular (deprecated package) Cross-site Scripting
+    cve_id: CVE-2022-25869
+    cve_url: https://github.com/advisories/GHSA-prc3-vjfx-vhm9
+    detected_date: Jul 20
+    severity: moderate
+    first_patched: 
+  - name: XSS via JQLite DOM manipulation functions in AngularJS
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5cp4-xmrw-59wf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.0
+  - name: Cross-Site Scripting via JSONP
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-28hp-fgcr-2r4h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.6.0
+  - name: angular vulnerable to regular expression denial of service via the <input
+      type="url"> element
+    cve_id: CVE-2023-26118
+    cve_url: https://github.com/advisories/GHSA-qwqh-hm9m-p5hr
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 
+  - name: Cross site scripting in Angular
+    cve_id: CVE-2020-7676
+    cve_url: https://github.com/advisories/GHSA-mhp6-pxh8-r675
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.0
+- name: angular-animate
+  description: AngularJS module for animations
+  package_url: https://www.npmjs.com/angular-animate
+  version: 1.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17370/default_68a60246a766655932541acc39422873bd51360a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: angular-aria
+  description: AngularJS module for making accessibility easy
+  package_url: https://www.npmjs.com/angular-aria
+  version: 1.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18511/default_4bc4a0119551229373100e6d6a9dee9c56ba0734.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: angular-material
+  description: This repository is used for publishing the AngularJS Material v1.x
+    library and localized installs using `npm`
+  package_url: https://www.npmjs.com/angular-material
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18543/default_d7801126d89b705c498c789a53f5f514e75e67fc.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: bcryptjs
+  description: Optimized bcrypt in plain JavaScript with zero dependencies
+  package_url: https://www.npmjs.com/bcryptjs
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16857/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-04 12:50:56.000000000 Z
+- name: crypto-js
+  description: JavaScript library of crypto standards
+  package_url: https://www.npmjs.com/crypto-js
+  version: 3.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16283/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+  vulnerabilities:
+  - name: crypto-js PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times
+      weaker than current standard
+    cve_id: CVE-2023-46233
+    cve_url: https://github.com/advisories/GHSA-xwcq-pm8m-c4vf
+    detected_date: Oct 26
+    severity: critical
+    first_patched: 4.2.0
+  - name: crypto-js uses insecure random numbers
+    cve_id: CVE-2020-36732
+    cve_url: https://github.com/advisories/GHSA-3w3w-pxmm-2w2j
+    detected_date: Jun 14
+    severity: moderate
+    first_patched: 3.2.1
+- name: expect
+  description: This package exports the `expect` function used in [Jest]
+  package_url: https://www.npmjs.com/expect
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16110/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-04 14:30:16.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-04 12:50:56.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: extract-text-webpack-plugin
+  description: Extract text from bundle into a file
+  package_url: https://www.npmjs.com/extract-text-webpack-plugin
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+  vulnerabilities:
+  - name: jsonwebtoken has insecure input validation in jwt.verify function
+    cve_id: CVE-2022-23529
+    cve_url: https://github.com/advisories/GHSA-27h2-hvpr-p74q
+    detected_date: Dec 22
+    severity: high
+    first_patched: 9.0.0
+  - name: 'jsonwebtoken unrestricted key type could lead to legacy keys usage '
+    cve_id: CVE-2022-23539
+    cve_url: https://github.com/advisories/GHSA-8cf7-32gw-wr33
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken vulnerable to signature validation bypass due to insecure default
+      algorithm in jwt.verify()
+    cve_id: CVE-2022-23540
+    cve_url: https://github.com/advisories/GHSA-qwph-4952-7xr6
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+  - name: jsonwebtoken's insecure implementation of key retrieval function could lead
+      to Forgeable Public/Private Tokens from RSA to HMAC
+    cve_id: CVE-2022-23541
+    cve_url: https://github.com/advisories/GHSA-hjrf-2m68-5959
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 9.0.0
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 3.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: rewire
+  description: Easy dependency injection for node.js unit testing
+  package_url: https://www.npmjs.com/rewire
+  version: 2.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16319/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-04 14:30:16.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: script-loader
+  description: Script loader module for webpack
+  package_url: https://www.npmjs.com/script-loader
+  version: 0.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17159/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2017-01-03 02:37:44.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Gautam Naik
+  last_updated_on: 2016-12-10 16:05:02.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in validator.js
+    cve_id: CVE-2021-3765
+    cve_url: https://github.com/advisories/GHSA-qgmg-gppg-76g5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 13.7.0
